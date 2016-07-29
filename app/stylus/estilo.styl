@@ -1,0 +1,99 @@
+@font-face
+  font-family 'Roboto'
+  src url('../fonts/Roboto-Black.ttf')
+  src url('../fonts/Roboto-Bold.ttf')
+  src url('../fonts/Roboto-BoldCondensed.ttf')
+
+letras = #0FEFBD
+
+html
+body
+  width 100%
+  height 100%
+  font-size 16px
+  overflow-x hidden
+
+.cabecera
+  padding .5em
+  text-align center
+  h1
+    margin 0
+    font-family 'Roboto'
+    color letras
+
+.cuerpo
+  width 100%
+  height 100%
+  -webkit-transition .4s
+  position relative
+  left 0
+  .visual
+    width 100%
+    height 100%
+.cuerpoD
+  position relative
+  width 100%
+  height 100%
+  left 40%
+  -webkit-transition .4s
+
+.menu
+  width 40%
+  height 100%
+  position fixed
+  top 0
+  left -40%
+  background #393E46
+  color white
+  -webkit-transition .4s
+.menuD
+  width 40%
+  height 100%
+  position fixed
+  top 0
+  left 0%
+  -webkit-transition .4s
+  background white
+  border-right .1em solid #FF2865
+.lista-menu
+  list-style none
+  padding 0
+  margin 0
+  font-family 'Roboto'
+  .item
+    font-size 2em
+    padding .5em
+    text-align center
+    cursor pointer
+
+.boton-menu
+  position absolute
+  top 1%
+  left 1%
+  z-index 1010
+  -webkit-transition .4s
+
+.boton-menuD
+  position absolute
+  top 1%
+  left 41%
+  z-index 1010
+  -webkit-transition .4s
+
+.no
+  display none
+
+#whatsapp
+  color #009688
+#messenger
+  color #0084FF
+#talky
+  color #EE0788
+#telegram
+  color #5682a3
+#slack
+  color #39B187
+#hangouts
+  color #1FA363
+#skype
+  color #00aff0
